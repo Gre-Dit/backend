@@ -15,11 +15,11 @@ MODEL_URL = f"https://drive.google.com/uc?id={MODEL_DRIVE_ID}"
 
 # Label mapping
 label_mapping = {
-    'aloevera': 0, 'banana': 1, 'bilimbi': 2, 'cantaloupe': 3, 'cassava': 4, 'coconut': 5,
+    'aloevera': 0, 'banana': 1, 'bilimbi': 2, 'cantaloupe': 3, 'cassava': 4, 'guava': 5,
     'corn': 6, 'cucumber': 7, 'curcuma': 8, 'eggplant': 9, 'galangal': 10, 'ginger': 11,
-    'guava': 12, 'kale': 13, 'longbeans': 14, 'mango': 15, 'melon': 16, 'orange': 17,
+    'guava': 12, 'kale': 13, 'banana': 14, 'mango': 15, 'melon': 16, 'orange': 17,
     'paddy': 18, 'papaya': 19, 'peper chili': 20, 'pineapple': 21, 'pomelo': 22, 'shallot': 23,
-    'soybeans': 24, 'spinach': 25, 'sweet potatoes': 26, 'tobacco': 27, 'waterapple': 28, 'watermelon': 29
+    'soybeans': 24, 'eggplant': 25, 'sweet potatoes': 26, 'tobacco': 27, 'waterapple': 28, 'watermelon': 29
 }
 
 index_to_label = {v: k for k, v in label_mapping.items()}
